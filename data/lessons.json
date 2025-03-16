@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Урок 1",
+    "description": "Урок 1: Знакомство с интерфейсом Figma\n\nЦель: \n\nНаучиться ориентироваться в интерфейсе Figma, чтобы уверенно работать с программой.\n\nШаги:\n\nОткройте Figma через браузер или скачайте приложение на компьютер. \nНажмите \"New File\" (Новый файл).\nИзучите основные элементы интерфейса:\nToolbar (верхняя панель) : Здесь находятся инструменты для создания фигур, текста и изображений.\nLayers Panel (правая панель слоев) : Показывает все элементы вашего проекта.\nProperties Panel (правая панель свойств) : Здесь можно изменять цвета, размеры и другие параметры объектов.\nCanvas (центральная рабочая область) : Это место, где вы работаете над своим проектом.\nУзнайте, как менять масштаб (Zoom): нажмите Ctrl + \"+\" или Ctrl + \"-\" (Windows) или Cmd + \"+\" / Cmd + \"-\" (Mac). Также можно использовать колесико мыши с зажатым Alt.\nПеремещайтесь по холсту, удерживая пробел и двигая мышью.\nСоздайте прямоугольник, круг и текстовый блок, чтобы попрактиковаться в использовании инструментов.\n",
+    "task": "\nСоздайте новый файл в Figma, добавьте прямоугольник, круг и текстовый блок. Измените масштаб и переместитесь по холсту.\n",
+    "videoUrl": "https://www.youtube.com/watch?v=Wt6V_23TDow",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 2",
+    "description": "Урок 2: Создание макета карточки товара\n\nЦель: Научиться создавать базовый макет карточки товара для Wildberries.\n\nШаги:\n\nСоздайте прямоугольник размером 800x1200 пикселей — это будет рамка карточки. Используйте инструмент \"Rectangle Tool\" (R).\nДобавьте внутри рамки заголовок, описание и кнопку \"Купить\". Для текста используйте инструмент \"Text Tool\" (T).\nВключите сетку (Grid): перейдите в меню \"View → Show Grid\". \nСетка поможет вам выровнять элементы.\nВыровняйте элементы по центру, используя инструменты выравнивания в верхней панели (Align Center, Align Middle).\n\nСохраните файл, чтобы не потерять работу.\n",
+    "task": "\nСоздайте макет карточки товара с заголовком, описанием и кнопкой. Убедитесь, что все элементы выровнены и используют сетку.",
+    "videoUrl": "https://www.youtube.com/watch?v=2DoCSshI-Z8",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 3",
+    "description": "Описание урока 3.",
+    "task": "Задание для урока 3.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 4",
+    "description": "Описание урока 4.",
+    "task": "Задание для урока 4.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 5",
+    "description": "Описание урока 5.",
+    "task": "Задание для урока 5.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 6",
+    "description": "Описание урока 6.",
+    "task": "Задание для урока 6.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 7",
+    "description": "Описание урока 7.",
+    "task": "Задание для урока 7.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 8",
+    "description": "Описание урока 8.",
+    "task": "Задание для урока 8.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 9",
+    "description": "Описание урока 9.",
+    "task": "Задание для урока 9.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 10",
+    "description": "Описание урока 10.",
+    "task": "Задание для урока 10.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 11",
+    "description": "Описание урока 11.",
+    "task": "Задание для урока 11.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 12",
+    "description": "Описание урока 12.",
+    "task": "Задание для урока 12.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 13",
+    "description": "Описание урока 13.",
+    "task": "Задание для урока 13.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 14",
+    "description": "Описание урока 14.",
+    "task": "Задание для урока 14.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 15",
+    "description": "Описание урока 15.",
+    "task": "Задание для урока 15.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 16",
+    "description": "Описание урока 16.",
+    "task": "Задание для урока 16.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 17",
+    "description": "Описание урока 17.",
+    "task": "Задание для урока 17.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 18",
+    "description": "Описание урока 18.",
+    "task": "Задание для урока 18.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 19",
+    "description": "Описание урока 19.",
+    "task": "Задание для урока 19.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 20",
+    "description": "Описание урока 20.",
+    "task": "Задание для урока 20.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 21",
+    "description": "Описание урока 21.",
+    "task": "Задание для урока 21.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 22",
+    "description": "Описание урока 22.",
+    "task": "Задание для урока 22.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 23",
+    "description": "Описание урока 23.",
+    "task": "Задание для урока 23.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 24",
+    "description": "Описание урока 24.",
+    "task": "Задание для урока 24.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 25",
+    "description": "Описание урока 25.",
+    "task": "Задание для урока 25.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 26",
+    "description": "Описание урока 26.",
+    "task": "Задание для урока 26.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 27",
+    "description": "Описание урока 27.",
+    "task": "Задание для урока 27.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 28",
+    "description": "Описание урока 28.",
+    "task": "Задание для урока 28.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 29",
+    "description": "Описание урока 29.",
+    "task": "Задание для урока 29.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 30",
+    "description": "Описание урока 30.",
+    "task": "Задание для урока 30.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 31",
+    "description": "Описание урока 31.",
+    "task": "Задание для урока 31.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 32",
+    "description": "Описание урока 32.",
+    "task": "Задание для урока 32.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 33",
+    "description": "Описание урока 33.",
+    "task": "Задание для урока 33.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 34",
+    "description": "Описание урока 34.",
+    "task": "Задание для урока 34.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  },
+  {
+    "title": "Урок 35",
+    "description": "Описание урока 35.",
+    "task": "Задание для урока 35.",
+    "videoUrl": "",
+    "completed": false,
+    "filePath": null
+  }
+]

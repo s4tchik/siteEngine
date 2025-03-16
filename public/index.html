@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обучающая платформа</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Обучающая платформа по дизайну карточек товаров для Wildberries">
+    <meta name="keywords" content="Wildberries, дизайн, карточки товаров, обучение">
+    <meta name="author" content="Saturn4ik">
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Обучающая платформа Wildberries",
+  "description": "Платформа для обучения дизайну карточек товаров для Wildberries",
+  "url": "https://wildberries-design.com",
+  "logo": "https://wildberries-design.com/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+7-999-888-77-66",
+    "contactType": "customer service"
+  }
+    }
+    </script>
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <a href="#" id="profileLink">Профиль</a>
+        <div class="admin-mode-toggle">
+            <button id="toggleAdminMode">Режим админа</button>
+            <button id="toggleAdminFeatures" style="display: none;">Показать функционал админа</button>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="content" id="lessons">
+        <div class="lesson-container">
+            <!-- Кнопки уроков будут генерироваться динамически -->
+        </div>
+
+        <!-- Модальное окно для просмотра урока -->
+        <div class="modal" id="lessonModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 id="lessonTitle">Урок</h2>
+                <p id="lessonDescription"></p>
+                <a id="lessonVideoLink" href="#" target="_blank" style="display: none;">Посмотреть видео</a>
+                <label for="fileUpload" class="file-upload-label">
+                    Выберите файл
+                    <input type="file" id="fileUpload" style="display: none;" />
+                </label>
+                <button id="fileUploadButton">Загрузить файл</button>
+                <button id="completeLessonButton" style="display:none;">Завершить урок</button>
+                <p id="attachedFile" style="display: none;">Прикрепленный файл: <a id="attachedFileLink" href="#" target="_blank">Скачать</a></p>
+            </div>
+        </div>
+
+        <!-- Модальное окно для ответов админа -->
+        <div class="modal" id="adminAnswersModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Ответы пользователей</h2>
+                <ul id="adminAnswersList"></ul>
+            </div>
+        </div>
+
+<!-- Модальное окно для функционала админа -->
+<div class="modal" id="adminFeaturesModal" style="display: none;">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Функционал администратора</h2>
+        <button id="resetProgressButton">Обнулить прогресс</button>
+        <button id="viewAnswersButton">Просмотреть ответы</button>
+    </div>
+</div>
+
+<!-- Модальное окно для ответов -->
+<div class="modal" id="adminAnswersModal" style="display: none;">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Ответы пользователей</h2>
+        <ul id="adminAnswersList"></ul>
+    </div>
+</div>
+
+        <!-- Страница профиля -->
+        <div class="modal" id="profileModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Профиль</h2>
+                <div class="profile-info">
+                    <img id="profilePicture" src="default-avatar.png" alt="Фото профиля" class="profile-picture" />
+                    <p><strong>Имя:</strong> <span id="profileFirstName">Иван</span></p>
+                    <p><strong>Фамилия:</strong> <span id="profileLastName">Иванов</span></p>
+                    <p><strong>О себе:</strong> <span id="profileAbout">Здесь может быть информация о вас.</span></p>
+                    <p><strong>Прогресс:</strong> <span id="profileProgress">0 / 35 уроков</span></p>
+                </div>
+                <button id="editProfileButton">Редактировать профиль</button>
+            </div>
+        </div>
+
+        <!-- Модальное окно для редактирования профиля -->
+        <div class="modal" id="editProfileModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Редактирование профиля</h2>
+                <label for="editProfileFirstName">Имя:</label>
+                <input type="text" id="editProfileFirstName" />
+                <label for="editProfileLastName">Фамилия:</label>
+                <input type="text" id="editProfileLastName" />
+                <label for="editProfileAbout">О себе:</label>
+                <textarea id="editProfileAbout" rows="5"></textarea>
+                <label for="editProfilePicture">Фото профиля:</label>
+                <input type="file" id="editProfilePicture" accept="image/*" />
+                <button id="saveProfileChanges">Сохранить изменения</button>
+            </div>
+        </div>
+
+        <!-- Модальное окно для редактирования урока -->
+        <div class="modal" id="editLessonModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Редактирование урока</h2>
+                <label for="editLessonTitle">Название:</label>
+                <input type="text" id="editLessonTitle" />
+                <label for="editLessonDescription">Описание:</label>
+                <textarea id="editLessonDescription" rows="5"></textarea>
+                <label for="editLessonTask">Задание:</label>
+                <textarea id="editLessonTask" rows="5"></textarea>
+                <label for="editLessonVideoUrl">Ссылка на видео:</label>
+                <input type="text" id="editLessonVideoUrl" />
+                <button id="saveLessonChanges">Сохранить изменения</button>
+            </div>
+        </div>
+
+        <!-- Модальное окно "О нас" -->
+        <div class="modal" id="aboutUsModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>О нас</h2>
+                <p>Мы — команда профессионалов, стремящихся сделать обучение доступным и увлекательным. Наша цель — помочь вам освоить новые навыки и стать успешнее в своей сфере.</p>
+            </div>
+        </div>
+
+        <!-- Модальное окно "Наша компания" -->
+        <div class="modal" id="ourCompanyModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Наша компания</h2>
+                <p>Наша компания специализируется на разработке обучающих платформ и предоставлении качественного контента для обучения. Мы работаем с 2020 года и уже помогли тысячам студентов достичь своих целей.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Уведомление -->
+    <div class="notification" id="notification">Файл успешно загружен!</div>
+
+    <!-- Дополнительные кнопки администратора -->
+    <div class="admin-buttons" style="display: none; text-align: center; margin-top: 20px;">
+        <button id="resetProgressButton">Обнулить прогресс</button>
+        <button id="viewAnswersButton">Просмотреть ответы</button>
+    </div>
+
+    <!-- Нижняя шапка -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#about-us" id="aboutUsLink">О нас</a>
+            <a href="#our-company" id="ourCompanyLink">Наша компания</a>
+            <a href="https://t.me/ya_est_valoranter" target="_blank" class="telegram-link">
+                <img src="telegram-icon.png" alt="Telegram" class="telegram-icon">
+            </a>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Обучающая платформа
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
